@@ -1,0 +1,25 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  flight_no: MyString
+  departure_time: 2018-08-16 12:13:58
+  departure_date: 2018-08-16
+  arrival_time: 2018-08-16 12:13:58
+  arrival_date: 2018-08-16
+  price: 1.5
+  occupied_seats: 1
+  departure_airport_id: 1
+  arrival_airport_id: 1
+  aircraft_id: 1
+
+two:
+  flight_no: MyString
+  departure_time: 2018-08-16 12:13:58
+  departure_date: 2018-08-16
+  arrival_time: 2018-08-16 12:13:58
+  arrival_date: 2018-08-16
+  price: 1.5
+  occupied_seats: 1
+  departure_airport_id: 1
+  arrival_airport_id: 1
+  aircraft_id: 1
