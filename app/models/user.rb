@@ -4,7 +4,12 @@ class User < ApplicationRecord
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :validatable
   
-  # belongs_to :flight, foreign_key: "departure_airport_id"
-  # belongs_to :flight, foreign_key: "arrival_airport_id"
+  #has_and_belongs_to_many :flights
+  # has_many :booking
+  # has_many :flights, through: :flight_user
+
+###################################################
+
+has_and_belongs_to_many :flights
 
 end
